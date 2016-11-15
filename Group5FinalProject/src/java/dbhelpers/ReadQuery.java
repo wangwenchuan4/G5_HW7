@@ -135,6 +135,9 @@ public class ReadQuery {
                 table += visitor.getWhy();
                 table += "</td>"; 
                 
+                table += "<td>";
+                table += "<a href=update?CustomerID=" + visitor.getCustomerID() + "> Update </a>" + "<a href=delete?CustomerID=" + visitor.getCustomerID() +"> Delete </a>";
+                table += "</td>";
                 
                 
                 table += "</tr>";
