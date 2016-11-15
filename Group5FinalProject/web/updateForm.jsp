@@ -47,7 +47,7 @@
                         </tr>
                         <tr>
                             <td>Will Help:</td>
-                            <td><input type="text" name="willhelp;" value="<%= visitor.getWillhelp() %>" /></td>
+                            <td><input type="text" name="willhelp" value="<%= visitor.getWillhelp() %>" /></td>
                         </tr>
                         <tr>
                             <td>Support:</td>

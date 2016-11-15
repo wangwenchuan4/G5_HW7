@@ -83,7 +83,7 @@ public class UpdateServlet extends HttpServlet {
                 String Email = request.getParameter("email");
                 String Phone = request.getParameter("phone");
                 String Posted = request.getParameter("posted");
-                String WillHelp = request.getParameter("willhelp");
+                String Willhelp = request.getParameter("willhelp");
                 String Support = request.getParameter("support");
                 String Why = request.getParameter("why");
                 
@@ -94,7 +94,7 @@ public class UpdateServlet extends HttpServlet {
                 visitor.setEmail(Email);
                 visitor.setPhone(Phone);
                 visitor.setPosted(Posted);
-                visitor.setWillhelp(WillHelp);
+                visitor.setWillhelp(Willhelp);
                 visitor.setSupport(Support);
                 visitor.setWhy(Why);
                 
