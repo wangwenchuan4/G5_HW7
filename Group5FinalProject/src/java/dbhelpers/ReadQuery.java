@@ -55,7 +55,7 @@ public class ReadQuery {
     public void doRead(){
         
         try {
-            String query = "Select * from support";
+            String query = "Select * from support ORDER BY customerID ASC";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
@@ -136,9 +136,12 @@ public class ReadQuery {
                 table += "</td>"; 
                 
                 table += "<td>";
-                table += "<a href=update?CustomerID=" + visitor.getCustomerID() + "> Update </a>" + "<a href=delete?CustomerID=" + visitor.getCustomerID() +"> Delete </a>";
+                table += "<a href=update?CustomerID=" + visitor.getCustomerID() + "> Update </a>";
                 table += "</td>";
                 
+                table += "<td>";
+                table += "<a href=delete?CustomerID=" + visitor.getCustomerID() +"> Delete </a>";
+                table += "</td>";
                 
                 table += "</tr>";
                 

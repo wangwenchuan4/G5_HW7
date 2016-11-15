@@ -6,17 +6,30 @@
     <head>
         <link rel="stylesheet" type="text/css" href="database.css"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Contact List</title>
     </head>
-    
-    <% String table = (String) request.getAttribute("table"); %>
-    
-    
-    
+
+    <% String table = (String) request.getAttribute("table");%>
+
+
+
+
     <body>
-        <h1>Support test</h1>
-        
-        <%= table %>
-        
+
+        <div class="wrap"> <!-- wrap -->
+
+            <%@include file="includes/header.jsp" %> 
+
+            <%@include file="includes/menu.jsp" %> 
+
+            <div class="main"> <!-- main --> 
+
+                <h1>Contact List</h1>
+
+                <%= table%>
+            </div> <!-- close main -->
+            <%@include file="includes/footer.jsp" %>
+
+        </div> <!-- close wrap -->
     </body>
 </html>
