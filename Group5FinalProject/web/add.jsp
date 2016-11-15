@@ -61,12 +61,14 @@
                     <br> 
                     <input type="reset" name="clear"   value="Clear" /> 
                     <input type="submit" name="submit"   value="Submit" />  
-
+               
+                    <br><br>
                 </form>
+                
             </div> <!-- close main -->
 
 
-            <%@include file="includes/footer.jsp" %>
+            <%@include file="includes/footer.jsp"%> 
 
         </div> <!-- close wrap -->
     </body>
