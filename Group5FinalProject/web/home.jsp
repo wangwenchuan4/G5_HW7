@@ -17,15 +17,16 @@
 
             <%@include file="includes/header1.jsp" %> 
 
-            <%@include file="includes/menu.jsp" %> 
+            <%@include file="includes/menu1.jsp" %> 
 
             <div class="main"> <!-- main --> 
 
-                <h1>Contact List</h1>
+                <h2>Basic Info</h2>
+                
 
                
             </div> <!-- close main -->
-            <%@include file="includes/footer.jsp" %>
+            <%@include file="includes/footer1.jsp" %>
 
         </div> <!-- close wrap -->
     </body>
