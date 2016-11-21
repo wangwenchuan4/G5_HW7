@@ -39,13 +39,13 @@
 
 
             <div class="row">
-                <div class="col-md-6 col-xs-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <center><h2>Mailing List</h2></center>
                         <jsp:include page="/adminmail"/>
                         <% String mail = (String) request.getAttribute("table");%>
                         <%= mail%>
                 </div>
-                <div class="col-md-6 col-xs-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <center><h2>Mailing List</h2></center>
                         <jsp:include page="/adminmail"/>
                         <% String volunteer = (String) request.getAttribute("table");%>
