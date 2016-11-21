@@ -32,8 +32,10 @@
                 <div class="col-xs-12">
                     <!-- main content -->
                     <div class="panel-default">
-                        <div class="panel-heading">
-                            <h1>Basic Information</h1>
+                        <div style="height:40px;padding:0" class="panel-heading">
+                            <center>
+                                <h2>Basic Information</h2>
+                            </center>
                         </div>
                     </div>
                 </div> 

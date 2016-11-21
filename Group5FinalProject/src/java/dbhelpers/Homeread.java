@@ -69,7 +69,7 @@ public class Homeread {
     
     public String getMessage(){
         
-        String message = "";
+        String table = "";
         
         try {
             while(this.results.next()){
@@ -79,7 +79,7 @@ public class Homeread {
                 home.setMessage(this.results.getString("content"));
                 
                             
-                message += home.getMessage();
+                table += home.getMessage();
                 
                 
                 
@@ -87,12 +87,12 @@ public class Homeread {
                 
             }
         } catch (SQLException ex) {
-            Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Homeread.class.getName()).log(Level.SEVERE, null, ex);
         }
  
             
             
-            return message; 
+            return table; 
         }
         
     }
