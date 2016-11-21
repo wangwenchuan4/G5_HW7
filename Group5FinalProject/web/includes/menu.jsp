@@ -1,8 +1,20 @@
-<div class="navcontainer"> <!-- http://css.maxdesign.com.au/listamatic/horizontal32.htm -->
-            <ul class="navlist">
-            <li class="active"><a href="index.jsp" class="current">Home</a></li>
-            <li><a href="read">View All Records</a></li>
-            <li><a href="add">Add A New Record</a></li>
-            <li><a href="search.jsp">Search Records</a></li>
+<div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="index.jsp">Home</a>
+                </li>
+                <li><a href="plans.jsp">Plans</a>
+                </li>
+                <li><a href="support.jsp">Show Support</a>
+                </li>
+                <li><a href="faq.jsp">FAQ</a>
+                </li>
             </ul>
         </div>
+    </div>
+</div>

@@ -1,4 +1,17 @@
-<div class="footer">
-
-        &copy; Copyright 2016 tholmes1371.com | All rights reserved | 
-        </div> <!-- close footer -->   
+<div class="row">
+    <div class="col-xs-12">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <center>
+                    &copy; Copyright 2016 SDDTAW| All rights reserved 
+                    <br>
+                    <a href="">Contact Us | </a>
+                    <a href="communitybio.jsp">Community Group Bio | </a>
+                    <a href="">Facebook | </a>
+                    <a href="">Twitter | </a>
+                    <a href="adminlogin.jsp">Admin</a>
+                </center>
+            </div>
+        </div>
+    </div>
+</div> <!-- close footer -->   

@@ -1,13 +1,17 @@
-<div class="header">   <!-- header -->
-            <div class="headerImg"> <!-- headerImg -->
-            <img src="includes/cobra.png" height="150px" />
-            </div> <!-- close headerImg -->
-
-            <div class="headerText"> <!-- headerText -->
-            <h1>...Software Development and Design...</h1>
-
-            <br>
+<div class="row">
+    <div class="col-sm-5 col-xs-12">
+         
             
-            </div> <!-- close headerText -->
-            <br clear="all">
-        </div> <!-- close header -->
+                <img src="includes/cobra.png" height="150px" />
+           
+       
+    </div>
+    <div class="col-sm-7 col-xs-12">
+       
+       
+        <h1>Business name here</h1>
+        
+        
+    </div>
+
+</div> <!-- close header -->
