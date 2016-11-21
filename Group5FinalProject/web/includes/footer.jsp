@@ -13,7 +13,7 @@
                     |
                     <a href="">Twitter</a>
                     |
-                    <a href="adminlogin.jsp">Admin</a>
+                    <a href="dashboard.jsp">Admin</a>
                 </center>
             </div>
         </div>
