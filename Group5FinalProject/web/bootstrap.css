@@ -137,6 +137,19 @@ h2{
         
 }
 
+planp {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px; 
+}
+
+.plans{
+    text-align:center;
+}
+
+
+
 #custom-bootstrap-menu.navbar-default .navbar-brand {
     color: rgba(119, 119, 119, 1);
 }
