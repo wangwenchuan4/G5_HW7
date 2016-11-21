@@ -13,17 +13,21 @@
         <title>Header</title>
     </head>
     <body>
-            <div class="wrap"> <!-- wrap -->
+            <div class="wrapper"> <!-- wrap -->
 
             <%@include file="includes/header1.jsp" %> 
 
             <%@include file="includes/menu1.jsp" %> 
-
+<h2>Basic Info</h2>
             <div class="main"> <!-- main --> 
 
-                <h2>Basic Info</h2>
                 
-
+                <p>basic info</p>
+                <p>jfjefjdiijfefji</p>
+                <p>jfjefjdiijfefdddji</p>
+                <div class="calculator">
+                    
+                </div>
                
             </div> <!-- close main -->
             <%@include file="includes/footer1.jsp" %>

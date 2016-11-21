@@ -1,5 +1,6 @@
 body {
     background: #D2B48C;
+   
 }
 
 table.table1{
@@ -183,7 +184,13 @@ h2{
 
 /*formats main content*/
 .main{
-
-    text-align: left;
+border: 1px solid gray;
+    text-align: center;
     padding: 25px;
+}
+.calculator{
+    text-align: center;
+    padding: 25px;
+    border: 1px solid gray;
+    
 }
